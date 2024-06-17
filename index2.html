@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Poemas </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..400;1,9..144,100..400&family=Noto+Sans+Display:wght@200..700&display=swap" rel="stylesheet"><link rel='stylesheet' href='https://codepen.io/giana/pen/rNRzgRj.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body class="container">
+  <audio src="Puca Uyachaa.mp3" autoplay></audio>
+  <div id="lyrics">
+  </div>
+  
+<!-- partial:index.partial.html -->
+<header class="site-header">
+    <h1 class="sr-only">Flores Para Mi Princesa 
+      <br>
+                             <strong></strong>
+    </h1>
+
+    <!-- Because Chrome crashes if an overflow is set on the fieldset while a named timeline is on a child element -->
+    <!-- ¯\_(ツ)_/¯ -->
+    <div class="fieldset-wrapper">
+      <fieldset>
+        <legend class="sr-only">Effects</legend>
+
+        <!-- radio buttons for each of the @keyframes above -->
+        <input type="radio" id="blink-effect" name="effect" value="blink" checked class="sr-only">
+        <label for="blink-effect">Chaska Ñawi</label>
+
+        <input type="radio" id="horizontal-scroll-effect" name="effect" value="horizontal-scroll" class="sr-only">
+        <label for="horizontal-scroll-effect">Puka Uyacha</label>
+
+        <input type="radio" id="backwards-scroll-effect" name="effect" value="backwards-scroll" class="sr-only">
+        <label for="backwards-scroll-effect">Sunquchallay</label>
+
+        <input type="radio" id="zoom-scroll-effect" name="effect" value="zoom-scroll" class="sr-only">
+        <label for="zoom-scroll-effect">Urpichallay</label>
+      </fieldset>
+    </div>
+
+    <nav>
+      <ul class="indicator">
+        <li><a href="#snapping"><span class="sr-only">Snapping</span></a></li>
+        <li><a href="#scrolling"><span class="sr-only">Scrolling</span></a></li>
+        <li><a href="#layout"><span class="sr-only">Layout</span></a></li>
+        <li><a href="#transition"><span class="sr-only">Transition</span></a></li>
+        <li><a href="#caveats"><span class="sr-only">Caveats</span></a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="snapping" class="section">
+      <div class="content">
+        <h2><strong>Chaska <br> Ñawi</strong></h2>
+
+        <div class="text">
+          <img src="https://assets.codepen.io/197359/flower-white.png" alt="">
+          <p>Ancha Sumaqmi <code class="selector">Ñawiykiqa</code> .Hanaq pachapi Quyllurkunata Yuyarichiwan         
+          <code class="property">Que</code>
+          bonitos<code class="selector"></code> ojos <code class="property">tienes. Me recuerdan a las estrellas</code>.</p>
+        </div>
+      </div>
+    </section>
+    <section id="scrolling" class="section">
+      <div class="content">
+        <h2><strong>Puka <br> Uyacha</strong></h2>
+
+        <div class="text">
+          <img src="https://assets.codepen.io/197359/flower-yellow.png" alt="">
+          <p>Sunkuchaypi Apakuyki <code class="property">Te llevo en mi corazoncito </code>Qanmi Kanki Kuyakusqay Runacha <code class="selector">Eres tu mi persona favorita.</code> Maypi Kaptikipas Sunquypim Apakuyki <code class="property">Estes donde estes,siempre te llevo en mi corazon</code>.Sumap <code class="property">Wayta</code>,Kapuli Ñawi. <code class="selector">¡Maypi! ¿Maypirap K'achakanki?</code> Hermosa de flor, ojos de capuli ¡donde estaras! </p>
+
+        </div>
+      </div>
+    </section>
+    <section id="layout" class="section">
+      <div class="content">
+        <h2><strong>Sunquchallay</strong></h2>
+
+        <div class="text">
+          <img src="https://assets.codepen.io/197359/flower-blue.png" alt="">
+          <p>Sapa Kutim Kanki Chay <code class="selector">Aswan Sumaq Masiy Kapuwaqniy,</code> Ichapas Wakin Kutipiqa Mana Anchata Rimanchickchu <code class="property">,Ichaqa Chayta Yuyariy Sapa Kutim </code>Sunquypi Tiyanki.</p>
+
+          <p>Siempre seras la amistad mas <code class="selector"> bonita </code>que tengo, <code class="property">quizas aveces no hablamos tanto,pero recuerda que siempre tienes un lugar en mi corazoncito</code>.</p>
+        </div>
+      </div>
+    </section>
+    <section id="transition" class="section">
+      <div class="content">
+        <h2><strong>Urpichallay</strong></h2>
+
+        <div class="text">
+          <img src="https://assets.codepen.io/197359/flower-red.png" alt="">
+          <p>Manan Imapas, <code class="selector">Wiñaypaqchu</code> Chaymi Kawsaynikipi <code class="property">Saqiykuway chay</code>, "Mana Imapas" Kanaypaq.</p>
+
+          <p>Nada dura para siempre,<code class="selector"> asi que dejame ser ese "Nada"</code> en tu vida.</p>
+        </div>
+      </div>
+    </section>
+    
+    <section id="caveats" class="section">
+      <div class="content">
+        <h2><strong>Sumaq Wayta </strong></h2>
+
+        <div class="text">
+          <img src="https://assets.codepen.io/197359/flower-purple.png" alt="">
+          <ul>
+            <li>kapuli Ñawi¿Maypiraq Kanki?</li>
+            <li>Hermosa  flor  <code class="property">ojos de capuli</code>. ¿Donde estaras?</li>
+            
+            </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>That's it <span class="emoji">🌸</span></p>
+  </footer>
+<!-- partial -->
+  <script src='https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js'></script>
+  
+      <script src="anim.js"></script>
+      <script src="main.js"></script>
+    
+</body>
+</html>
